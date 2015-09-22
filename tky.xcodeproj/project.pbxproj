@@ -15,6 +15,7 @@
 		194489FC1BB174C700A0D7B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 194489FA1BB174C700A0D7B2 /* LaunchScreen.xib */; };
 		19448A081BB174C700A0D7B2 /* tkyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19448A071BB174C700A0D7B2 /* tkyTests.m */; };
 		19448A131BB17A9B00A0D7B2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19448A121BB17A9B00A0D7B2 /* SecondViewController.m */; };
+		19448A161BB17B1A00A0D7B2 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19448A151BB17B1A00A0D7B2 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		19448A071BB174C700A0D7B2 /* tkyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tkyTests.m; sourceTree = "<group>"; };
 		19448A111BB17A9B00A0D7B2 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		19448A121BB17A9B00A0D7B2 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		19448A141BB17B1A00A0D7B2 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		19448A151BB17B1A00A0D7B2 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 		194489DF1BB174C700A0D7B2 = {
 			isa = PBXGroup;
 			children = (
+				19448A141BB17B1A00A0D7B2 /* ThirdViewController.h */,
+				19448A151BB17B1A00A0D7B2 /* ThirdViewController.m */,
 				194489EA1BB174C700A0D7B2 /* tky */,
 				19448A041BB174C700A0D7B2 /* tkyTests */,
 				194489E91BB174C700A0D7B2 /* Products */,
@@ -225,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19448A131BB17A9B00A0D7B2 /* SecondViewController.m in Sources */,
+				19448A161BB17B1A00A0D7B2 /* ThirdViewController.m in Sources */,
 				194489F41BB174C700A0D7B2 /* ViewController.m in Sources */,
 				194489F11BB174C700A0D7B2 /* AppDelegate.m in Sources */,
 				194489EE1BB174C700A0D7B2 /* main.m in Sources */,
