@@ -17,6 +17,7 @@
 		19448A131BB17A9B00A0D7B2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19448A121BB17A9B00A0D7B2 /* SecondViewController.m */; };
 		19448A161BB17B1A00A0D7B2 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19448A151BB17B1A00A0D7B2 /* ThirdViewController.m */; };
 		199D4BDD1BB180A500B51D8C /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199D4BDC1BB180A500B51D8C /* FourViewController.m */; };
+		199D4BE31BB1840A00B51D8C /* SixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199D4BE21BB1840A00B51D8C /* SixViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		19448A151BB17B1A00A0D7B2 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdViewController.m; path = ../ThirdViewController.m; sourceTree = "<group>"; };
 		199D4BDB1BB180A500B51D8C /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
 		199D4BDC1BB180A500B51D8C /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		199D4BE11BB1840A00B51D8C /* SixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixViewController.h; sourceTree = "<group>"; };
+		199D4BE21BB1840A00B51D8C /* SixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 		194489DF1BB174C700A0D7B2 = {
 			isa = PBXGroup;
 			children = (
+				199D4BE11BB1840A00B51D8C /* SixViewController.h */,
+				199D4BE21BB1840A00B51D8C /* SixViewController.m */,
 				194489EA1BB174C700A0D7B2 /* tky */,
 				19448A041BB174C700A0D7B2 /* tkyTests */,
 				194489E91BB174C700A0D7B2 /* Products */,
@@ -236,6 +241,7 @@
 			files = (
 				199D4BDD1BB180A500B51D8C /* FourViewController.m in Sources */,
 				19448A131BB17A9B00A0D7B2 /* SecondViewController.m in Sources */,
+				199D4BE31BB1840A00B51D8C /* SixViewController.m in Sources */,
 				19448A161BB17B1A00A0D7B2 /* ThirdViewController.m in Sources */,
 				194489F41BB174C700A0D7B2 /* ViewController.m in Sources */,
 				194489F11BB174C700A0D7B2 /* AppDelegate.m in Sources */,
