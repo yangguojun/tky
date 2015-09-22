@@ -14,6 +14,7 @@
 		194489F91BB174C700A0D7B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 194489F81BB174C700A0D7B2 /* Images.xcassets */; };
 		194489FC1BB174C700A0D7B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 194489FA1BB174C700A0D7B2 /* LaunchScreen.xib */; };
 		19448A081BB174C700A0D7B2 /* tkyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19448A071BB174C700A0D7B2 /* tkyTests.m */; };
+		19448A131BB17A9B00A0D7B2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19448A121BB17A9B00A0D7B2 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		19448A011BB174C700A0D7B2 /* tkyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tkyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19448A061BB174C700A0D7B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19448A071BB174C700A0D7B2 /* tkyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tkyTests.m; sourceTree = "<group>"; };
+		19448A111BB17A9B00A0D7B2 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		19448A121BB17A9B00A0D7B2 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				194489F81BB174C700A0D7B2 /* Images.xcassets */,
 				194489FA1BB174C700A0D7B2 /* LaunchScreen.xib */,
 				194489EB1BB174C700A0D7B2 /* Supporting Files */,
+				19448A111BB17A9B00A0D7B2 /* SecondViewController.h */,
+				19448A121BB17A9B00A0D7B2 /* SecondViewController.m */,
 			);
 			path = tky;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19448A131BB17A9B00A0D7B2 /* SecondViewController.m in Sources */,
 				194489F41BB174C700A0D7B2 /* ViewController.m in Sources */,
 				194489F11BB174C700A0D7B2 /* AppDelegate.m in Sources */,
 				194489EE1BB174C700A0D7B2 /* main.m in Sources */,
@@ -416,6 +422,7 @@
 				19448A0D1BB174C700A0D7B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19448A0E1BB174C700A0D7B2 /* Build configuration list for PBXNativeTarget "tkyTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				19448A101BB174C700A0D7B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
